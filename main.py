@@ -21,5 +21,11 @@ m = Main()
 bot = Bot(m.token)
 url = bot.setQueryHTTP("getMe")
 
-t = Twist()
-t.start(url)
+#t = Twist()
+#t.start(url)
+
+
+data=({"text":"penes","chat_id":3123, "disable_notification":True})
+
+d = bot.setDataSendMsg(data)
+print d
