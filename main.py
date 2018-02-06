@@ -25,7 +25,7 @@ url = bot.setQueryHTTP("getMe")
 #t.start(url)
 
 
-data=({"text":"penes","chat_id":3123, "disable_notification":True})
+data=({"text":"dummy","chat_id":3123, "disable_notification":True})
 
 d = bot.setDataSendMsg(data)
 print d
